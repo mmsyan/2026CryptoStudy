@@ -15,5 +15,7 @@ package birthday_attack
 // 存在至少一对取值相同的元素。
 func BirthdayAttackProbability(universeSize, sampleSize, numTrials int) float64 {
 	// TODO
+	// 提示，你应该使用rand.IntN方法。它来自"math/rand/v2"。如果路径不对，请重新导入。
+	// 参考：https://go.dev/blog/randv2
 	return 0.0
 }
